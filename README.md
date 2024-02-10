@@ -58,9 +58,9 @@ make
 
 ## Erasing Non-volatile Memory (NVM)
 
-This library uses the last page of flash as non-volatile memory (NVM) storage.
+This library uses littleFS as non-volatile memory (NVM) storage.
 
-You can erase it using the [`erase_nvm` example](examples/nvm), when:
+You can erase it when:
 
  * Changing the devices configuration
  * If your board is timing out with joining the network
